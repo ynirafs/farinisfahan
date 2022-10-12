@@ -125,7 +125,7 @@ export default function Home() {
                 <directionalLight color={"#9208d7"} position={[0.7,0.2,0]} />
                 <Stars count={stars ? 5000 : 0} />
                 <Float speed={play ? 1 : 0}>
-                  <Suspense fallback={<div className="loader flex justify-center items-center"></div>}>
+                  <Suspense fallback={null}>
                     <LegoSpaceship
                       customColors={defaultBodyColor}
                       rotation-y={defaultPosition}
