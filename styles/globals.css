@@ -20,7 +20,7 @@ body {
   padding: 0;
   margin: 0;
   color: var(--off-white);
-  background-color: var(--electric-blue);
+  background-color: var(--main-black);
   /*
   background-image: linear-gradient(to bottom, #fafafa, var(--electric));
   background-repeat: no-repeat;

@@ -137,26 +137,26 @@ export default function Home() {
 
             {/* COLOR PALETTE */}
             <div className="p-3 w-full flex items-center justify-between border-t-2">
-              <button className="color rounded w-9 h-9 lg:w-12 lg:h-12 bg-[#23262e] flex justify-center items-center" onClick={() => rotateX(defaultPosition + (Math.PI / 4))}>
+              <button className="color rounded m-1 w-9 h-9 lg:w-12 lg:h-12 bg-[#23262e] flex justify-center items-center" onClick={() => rotateX(defaultPosition + (Math.PI / 4))}>
                 <MdOutlineRotateLeft size={24} />
               </button>
 
-              <button className="color rounded w-9 h-9 lg:w-12 lg:h-12 bg-[#23262e] flex justify-center items-center" onClick={() => rotateX(defaultPosition + (-Math.PI / 4))}>
+              <button className="color rounded m-1 w-9 h-9 lg:w-12 lg:h-12 bg-[#23262e] flex justify-center items-center" onClick={() => rotateX(defaultPosition + (-Math.PI / 4))}>
                 <MdOutlineRotateRight size={24} />
               </button>
 
-              <button className="color rounded w-9 h-9 lg:w-12 lg:h-12 bg-[#23262e] flex justify-center items-center" onClick={() => stop(!play)}>
+              <button className="color rounded m-1 w-9 h-9 lg:w-12 lg:h-12 bg-[#23262e] flex justify-center items-center" onClick={() => stop(!play)}>
                 {play ? <MdPause size={24} /> : <MdPlayArrow size={24} />}
               </button>
 
-              <button className="color rounded w-9 h-9 lg:w-12 lg:h-12 bg-[#23262e] flex justify-center items-center" onClick={() => noStars(!stars)}>
+              <button className="color rounded m-1 w-9 h-9 lg:w-12 lg:h-12 bg-[#23262e] flex justify-center items-center" onClick={() => noStars(!stars)}>
                 {stars ? <RiEyeCloseFill size={22} /> : <RiEyeFill size={22} /> }
               </button>
 
-              <button className="color rounded w-9 h-9 lg:w-12 lg:h-12 bg-[#646267]" onClick={() => selectBodyColor("#646267")}></button>
-              <button className="color rounded w-9 h-9 lg:w-12 lg:h-12 bg-[#163249]" onClick={() => selectBodyColor("#163249")}></button>
-              <button className="color rounded w-9 h-9 lg:w-12 lg:h-12 bg-[#8e0902]" onClick={() => selectBodyColor("#8e0902")}></button>
-              <button className="color rounded w-9 h-9 lg:w-12 lg:h-12 bg-[#ffffff]" onClick={() => selectBodyColor("#ffffff")}></button>
+              <button className="color rounded m-1 w-9 h-9 lg:w-12 lg:h-12 bg-[#646267]" onClick={() => selectBodyColor("#646267")}></button>
+              <button className="color rounded m-1 w-9 h-9 lg:w-12 lg:h-12 bg-[#163249]" onClick={() => selectBodyColor("#163249")}></button>
+              <button className="color rounded m-1 w-9 h-9 lg:w-12 lg:h-12 bg-[#8e0902]" onClick={() => selectBodyColor("#8e0902")}></button>
+              <button className="color rounded m-1 w-9 h-9 lg:w-12 lg:h-12 bg-[#ffffff]" onClick={() => selectBodyColor("#ffffff")}></button>
             </div>
           </div>
 

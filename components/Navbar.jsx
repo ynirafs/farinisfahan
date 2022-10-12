@@ -10,7 +10,7 @@ export default function Navbar() {
             <h1 className="text-lg">FARINY SABTU</h1>
             
             <Link href="https://github.com/farinys">
-                <a target="_blank" rel="noreferrer" className="active:text-[#6fffff] hover:text-[#6fffff] transition duration-200">
+                <a target="_blank" rel="noreferrer" className="hover:text-[#6fffff] transition duration-200">
                     <SiGithub size={24} />
                 </a>
             </Link>
