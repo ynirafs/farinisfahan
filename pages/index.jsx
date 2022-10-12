@@ -162,7 +162,7 @@ export default function Home() {
 
           <div classname="border lg:w-1/2 h-full">
             <div className="mt-14 lg:mt-0 lg:pb-0 lg:pr-5"> {/**border-b border-gray-600 lg:border-0 */}
-              <p className="text-lg mb-4 text-justify">I'm a software developer based in Malaysia [GMT+8].</p>
+              <p className="text-lg mb-4 text-justify">I am a software developer based in Malaysia [GMT+8].</p>
               <p className="text-lg mb-4 text-justify">My main focus is on web apps with 3d product configuration features. Aside from that, I do fullstack web development.</p>
               <p className="text-lg mb-4 text-justify">I write in Javascript with Next JS for my works. For my personal projects, I prefer C++, C# or Python.</p>
               <p className="text-lg mb-4 text-justify">Started programming back in 2013 with C++ as my first language. And in 2019 I decided to return in this field, but this time into web development.</p>
